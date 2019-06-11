@@ -1,0 +1,75 @@
+body {
+    background: url(https://images.pexels.com/photos/1092364/pexels-photo-1092364.jpeg?auto=compress&cs=tinysrgb&h=350)center center/cover no-repeat;
+    margin: 0 auto 20px auto;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.navbar {
+    margin-bottom: 10px;
+    padding: 20px;
+    background: #f2f2f2;
+}
+
+nav.navbar.navbar-expand-md.navbar-dark.py-o {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a.navbar-brand {
+    font-size: 2em;
+    height: 100%;
+    background: #9E1030;
+    font-weight: 700;
+}
+
+a.nav-link {
+    font-size: 1em;
+}
+
+nav> div.container {
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+nav> div.container {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+nav>div>div>ul>li>a {
+    color: #111111;
+    font-weight: 700;
+}
+
+nav>div>div>ul>li>a:hover {
+    color: #f2f2f2;
+    background-color: #9E1030;
+}
+
+button.navbar-toggler {
+    background: #d3d3d3;
+}
+
+#container {
+    background: #fff;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    margin: 150px auto;
+    padding: 20px;
+    height: 800px;
+    font-family: 'Cormorant Garamond', serif;
+}
+/* 
+.container img {
+    width: 30%;
+    float: left;
+    margin: 1.66%;
+} */
+
+footer {
+    padding: 10px;
+    text-align: center;
+    background: #666666;
+    border-top: 2px solid#9E1030;
+}
