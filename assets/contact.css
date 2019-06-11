@@ -10,9 +10,10 @@ body {
     background: #f2f2f2;
 }
 
-nav.navbar.navbar-expand-md.navbar-dark.py-o {
+nav.navbar.navbar-expand-md.navbar-dark.py-0 {
     padding-top: 10px;
     padding-bottom: 10px;
+    border-bottom: 2px solid #9E1030;
 }
 
 a.navbar-brand {
@@ -29,9 +30,6 @@ a.nav-link {
 nav> div.container {
     margin-right: 150px;
     margin-left: 150px;
-}
-
-nav> div.container {
     padding-top: 0px;
     padding-bottom: 0px;
 }
@@ -54,7 +52,7 @@ button.navbar-toggler {
     border: 2px solid #838487;
     width: 80%;
     max-width: 700px;
-    margin: 60px auto;
+    margin: 60px auto 100px auto;
     padding: 20px 20px 50px 20px;
     height: 550px;
     background:  #f2f2f2;
@@ -106,6 +104,9 @@ footer {
     text-align: center;
     background: #666666;
     border-top: 2px solid#9E1030;
+    position: fixed;
+    bottom:0;
+    width: 100%;
 }
 
 @media only screen and (max-width: 600px) {

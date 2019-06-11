@@ -60,12 +60,12 @@ button.navbar-toggler {
     height: 800px;
     font-family: 'Cormorant Garamond', serif;
 }
-/* 
-.container img {
+
+#container img {
     width: 30%;
     float: left;
     margin: 1.66%;
-} */
+}
 
 footer {
     padding: 10px;
