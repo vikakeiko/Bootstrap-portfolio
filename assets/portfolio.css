@@ -10,7 +10,7 @@ body {
     background: #f2f2f2;
 }
 
-nav.navbar.navbar-expand-md.navbar-dark.py-o {
+nav.navbar.navbar-expand-md.navbar-dark.py-0 {
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 2px solid #9E1030;
@@ -68,6 +68,23 @@ button.navbar-toggler {
     width: 30%;
     float: left;
     margin: 1.66%;
+}
+/* 
+@media (max-width:770px){
+    #container {
+        height: 650px;
+    }
+}
+
+@media (max-width:666px){
+    #container{
+        height: 550px;
+    } */
+}
+/@media (max-width:879px){
+    #container {
+        height: 872px;
+    }
 }
 
 footer {
